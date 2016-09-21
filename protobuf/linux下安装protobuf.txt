@@ -1,0 +1,30 @@
+yum -y install gcc+ gcc-c++
+
+下载protobuf-2.4.1.tar.gz：
+http://protobuf.googlecode.com/files/protobuf-2.4.1.tar.gz
+安装：
+tar zxvf protobuf-2.4.1.tar.gz
+cd protobuf-2.4.1
+./configure
+make
+make check
+make install
+安装结束。
+验证：
+查看是否安装成功：protoc --version
+如果出现：libprotoc 2.4.1 则说明安装成功！
+如果出现错误： protoc: error while loading shared libraries: libprotobuf.so.0: cannot open 
+
+shared object file: No such file or directory 
+
+The issue is that Ubuntu 8.04 doesn't include /usr/local/lib in 
+
+library paths. 
+
+ 
+ 
+To fix it for your current terminal session, just type in 
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib 
+
+ 
