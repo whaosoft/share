@@ -4,8 +4,10 @@
 
 < 近期将上传modbus的采集器python编写,有配置化页面 >
 
-3.  关于 json2xml xml2json 
-import net.sf.json.xml.XMLSerializer 可以做 但遇到数组时有bug 如下<br/>
+3.  关于 json2xml xml2json <br/>
+XMLSerializer 里的一些坑那<br/>
+import net.sf.json.xml.XMLSerializer 可以做 但遇到数组时有bug
+<br/> 如下<br/>
 ```
 <Message>
   <mrs >
