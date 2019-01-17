@@ -3,3 +3,8 @@
 2.  关于go语言 ping的程式< goping > 欢迎大家来指出问题
 
 < 近期将上传modbus的采集器python编写,有配置化页面 >
+
+3.  关于 json2xml xml2json 
+import net.sf.json.xml.XMLSerializer 可以做 但遇到数组时有bug 如下
+<Message><mrs ><mr>22</mr><mr>1</mr></mrs></Message>
+原版有问题, 本人对此做了修改 
