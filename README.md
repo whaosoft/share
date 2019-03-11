@@ -10,7 +10,7 @@ import net.sf.json.xml.XMLSerializer 可以做 但遇到数组时有bug
 <br/> 如下<br/>
 ```
 <Message>
-  <mrs >
+  <mrs a="n1">
     <mr>22</mr>
     <mr>1</mr>
   </mrs>
