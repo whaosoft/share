@@ -1,5 +1,0 @@
-
-   windows下生成go 要注意啊 关于windows下生成网上各种转发的帖子中命令都不全啊 代码生出来会少很多的
-   (// Client API for Greeter service这些都木有)
-   
-   最后建议还是windows下生成吧 不 用装这么多乱78遭 俩个exe搞定 要不linux装半天 尤其是centos下烦死了 
